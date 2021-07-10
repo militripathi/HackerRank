@@ -20,7 +20,6 @@ object TaleOfTwoStacks extends App{
     def peek():T={
       transferStack()
       stackOldestOnTop.top
-
     }
 
     def dequeue():T={
